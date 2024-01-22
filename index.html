@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Yoho</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="cursor"></div>
+   <header>
+      <nav>
+         <div class="dropdown">
+            <!-- Button to toggle the dropdown -->
+            <button onclick="toggleDropdown()">
+               |||
+            </button>
+
+            <!-- Dropdown content -->
+            <div class="dropdown-content" id="dropdownContent">
+               <p><a href="#">Home</a></p>
+               <p><a href="#">About</a></p>
+               <p><a href="#">Contacts</a></p>
+               <p><a href="#">Projects</a></p>
+            </div>
+            
+         </div>
+
+         <ul class='nav_options'>
+            <li><a class='nav-links' href="#">Home</a></li>
+            <li><a class='nav-links' href="#">About</a></li>
+            <li><a class='nav-links' href="#">Contact</a></li>
+            <li><a class='nav-links' href="#">Projects</a></li>
+         </ul>
+      </nav>
+
+   </header>
+
+   <main>
+
+      <section class="left">
+         <span class='greet'>HI THERE!</span>
+         <span>I'M
+            <span class='myName' id="my-Name"> YASH VASHISHT </span>and I am
+
+            <div id='changingText'>
+               <div id="textchange"></div>
+            </div>
+         </span>
+
+         <br />
+
+
+         <div class='lastLine'>
+            A Developer who is always excited to build new stuff
+         </div>
+
+      </section>
+
+      <section class="right">
+         <img class="main-img" src="./images/p2.avif" alt="img" />
+      </section>
+
+   </main>
+
+
+   <div class='main-section'>
+
+      <div class="main-content">
+
+         <h1 class='sk'>Skills </h1>
+
+         <div class='card-container'>
+            <div class="card" id='card1'></div>
+            <h3>JavaScript</h3>
+         </div>
+
+
+         <div class='card-container'>
+
+            <div class="card" id='card2'></div>
+            <h3>Reactjs</h3>
+         </div>
+
+
+         <div class='card-container'>
+            <div class="card" id='card3'>
+            </div>
+            <h3>HTML/CSS</h3>
+         </div>
+
+         <div class='card-container'>
+            <div class="card" id='card4'>
+            </div>
+            <h3>SASS</h3>
+         </div>
+
+         <div class='card-container'>
+            <div class="card" id='card5'>
+            </div>
+            <h3>Tailwind</h3>
+         </div>
+
+         <div class='card-container'>
+            <div class="card" id='card6'>
+            </div>
+            <h3>Git & GitHub</h3>
+         </div>
+      </div>
+
+
+
+      <div class="aboutMe-section">
+         <div class="aboutMe">
+            <h1>About Me</h1>
+            <p>
+               Hey there! My name is Yash Vashisht, I am 24 years old and I am a Front-End Developer I have done my 12th
+               from Nios and my graduation (BCA) from ignou I am looking for Job/Internship I dont have any experience,
+               I live in Delhi, uttam nagar.
+            </p>
+         </div>
+      </div>
+
+
+      <div class="myProjects">
+         <div class="projects">
+
+            <a href="https://yashvashishtt.github.io/Amazon-Clone/">
+               <div class="item" id="item1">
+
+                  <div class="item-text">
+                     <h3>1. Amazon clone</h3>
+                     <p><b>Tech stack:</b> HTML,CSS Responsive Amazon clone</p>
+                  </div>
+               </div>
+            </a>
+
+
+            <a href="https://yashvashishtt.github.io/MCQs/">
+               <div class="item" id="item2">
+                  <div class="item-text">
+                     <h3>2. MCQs</h3>
+                     <p><b>Tech stack:</b> HTML,CSS,JS Five Question Mcq Game </p>
+                  </div>
+               </div>
+            </a>
+
+            <a href="https://yashvashishtt.github.io/Todos/">
+               <div class="item" id="item3">
+                  <div class="item-text">
+                     <h3>3. ToDos App</h3>
+                     <p><b>Tech stack:</b> HTML,CSS,JS Todos app</p>
+                  </div>
+               </div>
+            </a>
+
+            <!-- <div class="item" id="item4">
+               <div class="item-text">
+                  <h3>Project no</h3>
+                  <p>Text will be here...</p>
+               </div>
+            </div>
+
+            <div class="item" id="item5">
+               <div class="item-text">
+                  <h3>Project no</h3>
+                  <p>Text will be here...</p>
+               </div>
+            </div>
+
+            <div class="item" id="item6">
+               <div class="item-text">
+                  <h3>Project no</h3>
+                  <p>Text will be here...</p>
+               </div>
+            </div>
+
+            <div class="item" id="item7">
+               <div class="item-text">
+                  <h3>Project no</h3>
+                  <p>Text will be here...</p>
+               </div>
+            </div>
+
+            <div class="item" id="item8">
+               <div class="item-text">
+                  <h3>Project no</h3>
+                  <p>Text will be here...</p>
+               </div>
+            </div> -->
+
+         </div>
+      </div>
+
+
+   </div>
+
+   <footer>
+
+      <div class="box" id='box1'>
+         <h1>Contact Me</h1>
+         <ul>
+            <li><span>Number: </span>+91 8826581889</li>
+            <li><span>E-Mail: </span>yashvashisht100@gmail.com</li>
+            <li><span>E-Mail-2: </span>yashvashisht10@gmail.com</li>
+         </ul>
+
+      </div>
+
+      <div class="box" id='box2'>
+         <h1>Other Accounts</h1>
+
+         <ul>
+            <li>
+               <a id='twitter' class='acc_links' href="https://twitter.com/YashVashh">
+                  <img src="./images/twitter.png" alt="Twitter" />
+               </a>
+            </li>
+
+            <li>
+               <a id='insta' class='acc_links' href="https://www.instagram.com/_yash_vash/">
+                  <img src="./images/Instagram.png" alt="Insta" />
+               </a>
+            </li>
+
+            <li>
+               <a id='linked_in' class='acc_links' href="https://www.linkedin.com/i
+              n/yash-vashisht-933739296/"><img src="./images/LinkedIn.png" alt="linked-in" />
+               </a>
+            </li>
+
+            <li>
+               <a id='gitHub' class='acc_links' href="https://github.com/YashVashishtt">
+                  <img src="./images/github.png" alt="gitHub" />
+               </a>
+            </li>
+
+         </ul>
+
+      </div>
+
+
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
